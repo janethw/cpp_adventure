@@ -3,7 +3,17 @@
 #include <string>
 
 
+class Test {
+    // name is private
+    std::string name;
+};
+
+
 int main() {
+    Test t;
+
+    // compiler error because name is private
+    t.name = "Entrance";
 
     std::string choice;
 
