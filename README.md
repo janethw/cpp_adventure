@@ -7,9 +7,13 @@
 - ```mkdir build```
 ##### Switch into the build dir
 - ```cd build```
+##### To clear cache in build dir if required
+- ```clear --CMakeCache.txt```
 ##### Run CMake
 - ```cmake -G "MinGW Makefiles" ..```
-##### Build the project
-- ```mingw32-make```
+##### Compile the project 
+- ```cmake --build```
 ##### From the Build directory, run tests using CTest
 - ```ctest``` or ```ctest -V``` for more detailed output
+##### Run the program
+- ```./filename.exe``` in src
