@@ -4,22 +4,22 @@
 #include <stdexcept>
 
 
-class Room {
-private:
-    std::string _RoomName;
+// class Room {
+// private:
+//     std::string _RoomName;
 
-public:
-    // Constructor with an initializer list
-    // const ensure immutability
-    // string& name passes by reference for efficiency
-    Room(const std::string& name) : _RoomName(name) {};
+// public:
+//     // Constructor with an initializer list
+//     // const ensure immutability
+//     // string& name passes by reference for efficiency
+//     Room(const std::string& name) : _RoomName(name) {};
     
-    // Get name method
-    const std::string& getName() const { return _RoomName; }
+//     // Get name method
+//     const std::string& getName() const { return _RoomName; }
     
-    // Set name method
-    void setName(const std::string& newName) { _RoomName = newName; }
-};
+//     // Set name method
+//     void setName(const std::string& newName) { _RoomName = newName; }
+// };
 
 
 int main() {
