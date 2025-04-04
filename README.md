@@ -15,5 +15,10 @@
 - ```cmake --build```
 ##### From the Build directory, run tests using CTest
 - ```ctest``` or ```ctest -V``` for more detailed output
-##### Run the program
-- ```./filename.exe``` in src
+
+## Run the program
+- ```./filename.exe``` in src having done the build and compile above
+or
+- ```cd <to main.cpp>```
+- ```g++ main.cpp room.cpp -o output```
+- ```output.exe```

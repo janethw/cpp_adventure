@@ -2,6 +2,7 @@
 #include <istream>
 #include <string>
 #include <stdexcept>
+#include "room.h"
 
 
 // class Room {
