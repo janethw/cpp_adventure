@@ -16,7 +16,8 @@ set(CMAKE_CXX_STANDARD 11)
 # Specify the path to GoogleTest
 set(GTEST_DIR "C:/Tools/googletest")
 
-# Include the GoogleTest directory and add its subdirectory
+# Specify the paths for the GoogleTest directory (so the compiler knows where to find them)
+# and add its subdirectory
 include_directories(${GTEST_DIR}/googletest/include)
 include_directories(${GTEST_DIR}/googlemock/include)
 add_subdirectory(${GTEST_DIR} googletest-build)
@@ -26,3 +27,4 @@ enable_testing()
 
 # Add subdirectory
 add_subdirectory(cpp_adventure)
+add_subdirectory(cpp_adventure/tests)
