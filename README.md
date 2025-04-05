@@ -11,9 +11,14 @@
 - ```clear --CMakeCache.txt```
 ##### Run CMake
 - ```cmake -G "MinGW Makefiles" ..```
-##### Compile the project 
-- ```cmake --build```
+##### Compile the project in the current directory
+- ```cmake --build .``` 
 ##### From the Build directory, run tests using CTest
 - ```ctest``` or ```ctest -V``` for more detailed output
-##### Run the program
-- ```./filename.exe``` in src
+
+## Run the program
+- path: cpp_adventure/build/cpp_adventure/MyApp.exe ```MyApp.exe``` having done the build and compile above
+or
+- ```cd <to main.cpp>```
+- ```g++ main.cpp room.cpp -o output```
+- ```output.exe```

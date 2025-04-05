@@ -1,12 +1,15 @@
 #include "gtest/gtest.h"
-#include "../src/TestPublicMethods.h"
+#include "../src/classes/room.h"
 
 
-TEST(TestPublicMethods, SetAndGetName) {
+TEST(Room, SetAndGetName) {
+    // Create an instance of the Room Class using custom constructor syntax
+    Room r("Default");
+
     // Test default
-    EXPECT_EQ(t.getName(), "Default");
+    EXPECT_EQ(r.getName(), "Default");
 
     // Test specified name
-    t.setName("SomeName");
-    EXPECT_EQ (t.getName(), "SomeName");
+    r.setName("SomeName");
+    EXPECT_EQ (r.getName(), "SomeName");
 }

@@ -2,25 +2,7 @@
 #include <istream>
 #include <string>
 #include <stdexcept>
-#include "room.h"
-
-
-// class Room {
-// private:
-//     std::string _RoomName;
-
-// public:
-//     // Constructor with an initializer list
-//     // const ensure immutability
-//     // string& name passes by reference for efficiency
-//     Room(const std::string& name) : _RoomName(name) {};
-    
-//     // Get name method
-//     const std::string& getName() const { return _RoomName; }
-    
-//     // Set name method
-//     void setName(const std::string& newName) { _RoomName = newName; }
-// };
+#include "classes/room.h"
 
 
 int main() {
