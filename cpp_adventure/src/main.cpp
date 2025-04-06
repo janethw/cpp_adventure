@@ -3,6 +3,7 @@
 #include <string>
 #include <stdexcept>
 #include "classes/room.h"
+#include "functions/enterRoom.h"
 
 
 int main() {
@@ -14,10 +15,13 @@ int main() {
     
     std::string choice;
     std::string room;
+    std::string message;
 
     room = hall.getName();
 
-    std::cout << "You are in " + room + ". What direction next? " << std::endl;
+    message = enterRoom(room);
+
+    std::cout << message << std::endl;
     std::cin >> choice;
     std::cout << choice << std::endl;
 }
