@@ -1,8 +1,7 @@
 #include "room.h"
 
-
 // Constructor with initializer list
-// const ensure immutability
+// const ensures immutability
 // string& name passes by reference for efficiency
 Room::Room(const std::string& name) : _RoomName(name) {};
 
