@@ -13,14 +13,12 @@ set(CMAKE_CXX_STANDARD 11)
 # )
 # FetchContent_MakeAvailable(googletest)
 
-# Specify the path to GoogleTest
-set(GTEST_DIR "C:/Tools/googletest")
+# Specify the path to the GoogleTest installation
+set(GTEST_DIR "C:/Tools/googletest/")
 
 # Specify the paths for the GoogleTest directory (so the compiler knows where to find them)
-# and add its subdirectory
 include_directories(${GTEST_DIR}/googletest/include)
 include_directories(${GTEST_DIR}/googlemock/include)
-add_subdirectory(${GTEST_DIR} googletest-build)
 
 # Enable testing globally
 enable_testing()

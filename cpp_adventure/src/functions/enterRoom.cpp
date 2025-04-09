@@ -3,6 +3,6 @@
 
 std::string enterRoom(std::string room) {
     std::string enterRoomText;
-    enterRoomText = "You are in " + room + ". What direction next? ";
+    enterRoomText = "You are in a " + room + ". What direction next? ";
     return enterRoomText;
 }
