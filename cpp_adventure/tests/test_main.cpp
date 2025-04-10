@@ -2,6 +2,7 @@
 //  in the local Googletest installation
 #include "gtest/gtest.h"
 #include "../src/classes/room.h"
+#include <stdexcept>
 
 
 TEST(Room, SetAndGetName) {
@@ -15,3 +16,4 @@ TEST(Room, SetAndGetName) {
     r.setName("SomeName");
     EXPECT_EQ (r.getName(), "SomeName");
 }
+
