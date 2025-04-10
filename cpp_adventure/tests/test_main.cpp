@@ -1,4 +1,4 @@
-#include "../../build/gtest/gtest.h"
+#include "gtest/gtest.h"
 #include "../src/classes/room.h"
 
 
