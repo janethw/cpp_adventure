@@ -2,20 +2,11 @@
 #define __ROOM_H_
 
 #include <string>
+#include "thing.h"
 
-class Room {
-    private:
-        std::string _RoomName;
-    
+class Room : public Thing {
     public:
-        // Constructor
-        Room(const std::string& name);
-        
-        // Get name method
-        const std::string& getName() const;
-        
-        // Set name method
-        void setName(const std::string& newName);
-    };
+        void interact() override;
+};
 
-#endif //ROOM
+#endif // ROOM
