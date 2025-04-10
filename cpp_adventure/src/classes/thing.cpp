@@ -12,7 +12,4 @@ const std::string& Thing::getName() const { return _ObjectName; }
 // Set name method
 void Thing::setName(const std::string& newName) { _ObjectName = newName; } 
 
-// Define the virtual (abstract) method
-void Thing::interact() {
-    std::cout << "Default output for virtual interact method" << std::endl;
-};
+// The virtual (abstract) method does not need to be defined because it will be overridden by the (derived) Room class
