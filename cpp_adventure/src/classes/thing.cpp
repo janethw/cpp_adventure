@@ -1,6 +1,7 @@
 #include <iostream>
 #include "thing.h"
 
+// Define Thing class
 // Constructor with initializer list
 // const ensures immutability
 // string& name passes by reference for efficiency

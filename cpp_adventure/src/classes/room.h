@@ -4,6 +4,8 @@
 #include <string>
 #include "thing.h"
 
+
+// Declare Room class
 class Room : public Thing {
     // Explicitly call the Thing class constructor
     Room(const std::string& name) : Thing(name) {};

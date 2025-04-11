@@ -3,6 +3,7 @@
 #include <string>
 #include <stdexcept>
 #include "classes/room.h"
+#include "classes/thing.h"
 #include "functions/enterRoom.h"
 
 
