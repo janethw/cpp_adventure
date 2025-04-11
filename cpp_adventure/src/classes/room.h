@@ -7,10 +7,10 @@
 
 // Declare Room class
 class Room : public Thing {
+    public:
     // Explicitly call the Thing class constructor
     Room(const std::string& name) : Thing(name) {};
 
-    public:
         void interact() override;
 };
 
