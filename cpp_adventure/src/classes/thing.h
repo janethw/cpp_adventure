@@ -3,6 +3,7 @@
 
 #include <string>
 
+// declare Thing class
 class Thing {
     private:
         std::string _ObjectName;
