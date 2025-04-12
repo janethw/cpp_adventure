@@ -9,10 +9,11 @@
 
 int main() {
 
-    Room hall("Hall");
-    Room cave("Cave");
-    Room castle("Castle");
-    Room market("Market");
+    Room hall("Hall", 2, 3, 4, -1);
+    Room cave("Cave", -1, -1, 1, -1);
+    Room castle("Castle", -1, -1, 5, 1);
+    Room market("Market", 1, 5, -1, -1);
+    Room garden("Garden", 3, -1, -1, 4);
     
     std::string choice;
     std::string room;
