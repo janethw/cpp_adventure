@@ -7,7 +7,7 @@
 
 TEST(Room, SetAndGetName) {
     // Create an instance of the Room Class using custom constructor syntax
-    Room r("Default");
+    Room r("Default", -1, -1, -1, -1);
 
     // Test default
     EXPECT_EQ(r.getName(), "Default");
