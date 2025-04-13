@@ -21,7 +21,7 @@ public:
         : Thing(name), _roomName(roomName), n(nArg), e(eArg), s(sArg), w(wArg) {};
 
     // Get roomName method
-    const std::string &getName() const;
+    const std::string &getRoomName() const;
 
     // Override interact method from parent class
     void interact() const override;

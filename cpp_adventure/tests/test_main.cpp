@@ -5,22 +5,19 @@
 #include <stdexcept>
 
 
+
 TEST(Room, SetAndGetName) {
     // Create an instance of the Room Class using custom constructor syntax
-    Room r("Default", "Default", -1, -1, -1, -1);
+    Room r("Default", "Hall", -1, -1, -1, -1);
 
-    // Test type of game object default
-    EXPECT_EQ(r.getName(), "Default");
+    // Test descriptive room name is "Hall" on instantiation of Room object
+    EXPECT_EQ(r.getRoomName(), "Hall");
 
     // Test default
-    //EXPECT_EQ(r.roomName(), "Default");
+    EXPECT_EQ(r.getGameObjectName(), "Default");
 
-    // Test specified game object type
-    // r.setName("Room");
-    // EXPECT_EQ(r.getName(), "Room");
-
-    // Test specified room descriptive name
-    // r.roomName("Hall");
-    // EXPECT_EQ(r._roomName(), "Hall"); 
+    // Test specified game object is type "Room" on instantiation of Room object
+    r.setGameObjectName("Room");
+    EXPECT_EQ(r.getGameObjectName(), "Room");
 }
 
