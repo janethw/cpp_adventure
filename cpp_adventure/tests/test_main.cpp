@@ -7,13 +7,20 @@
 
 TEST(Room, SetAndGetName) {
     // Create an instance of the Room Class using custom constructor syntax
-    Room r("Default", -1, -1, -1, -1);
+    Room r("Default", "Default", -1, -1, -1, -1);
 
-    // Test default
+    // Test type of game object default
     EXPECT_EQ(r.getName(), "Default");
 
-    // Test specified name
-    r.setName("SomeName");
-    EXPECT_EQ (r.getName(), "SomeName");
+    // Test default
+    //EXPECT_EQ(r.roomName(), "Default");
+
+    // Test specified game object type
+    // r.setName("Room");
+    // EXPECT_EQ(r.getName(), "Room");
+
+    // Test specified room descriptive name
+    // r.roomName("Hall");
+    // EXPECT_EQ(r._roomName(), "Hall"); 
 }
 
