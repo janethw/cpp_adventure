@@ -19,7 +19,7 @@ int main() {
     std::string room;
     std::string message;
 
-    // room = hall.getName();
+    room = hall.getRoomName();
 
     message = enterRoom(room);
 
