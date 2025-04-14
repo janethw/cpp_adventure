@@ -5,7 +5,7 @@ add_executable(MyApp src/main.cpp)
 set(SRC_CLASSES src/classes/room.cpp src/classes/thing.cpp)
 
 # set variable SRC_FUNCTIONS to hold function .cpp files
-set(SRC_FUNCTIONS src/functions/enterRoom.cpp)
+set(SRC_FUNCTIONS src/functions/enterRoom.cpp src/functions/init.cpp)
 
 # add libraries for files in the classes dir and functions dir
 add_library(lib_classes ${SRC_CLASSES})
