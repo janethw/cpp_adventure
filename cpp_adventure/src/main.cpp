@@ -16,7 +16,7 @@ int main() {
     // Room market("Room", "Market", 1, 5, -1, -1);
     // Room garden("Room", "Garden", 3, -1, -1, 4);
     
-    std::void init;
+    init();
     std::string choice;
     std::string room;
     std::string message;
