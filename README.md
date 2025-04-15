@@ -1,6 +1,6 @@
 # cpp_adventure
 
-## Running tests
+## Running the app and tests
 ##### Clear build dir if clean start required
 - ```rmdir /s build```
 ##### Create build directory at project root level
