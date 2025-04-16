@@ -30,13 +30,13 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 # Specify the path to the GoogleTest installation
-set(GTEST_DIR "C:/Tools/googletest/")
+# set(GTEST_DIR "C:/Tools/googletest/")
 
 # Specify the paths for the GoogleTest directory in c:\ (so the compiler knows where to find them)
-include_directories(${GTEST_DIR}/googletest/include)
-include_directories(${GTEST_DIR}/googlemock/include)
+# include_directories(${GTEST_DIR}/googletest/include)
+# include_directories(${GTEST_DIR}/googlemock/include)
 # Add the sub-directory containing the CMakeLists.txt in the Googletest installation root
-add_subdirectory(${GTEST_DIR} googletest)
+# add_subdirectory(${GTEST_DIR} googletest)
 
 # Enable testing globally
 enable_testing()
