@@ -1,6 +1,6 @@
 // Warning on the gtest include due to Intellisense not knowing the path of the gtest header file 
 //  in the local Googletest installation
-#include "gtest/gtest.h"
+#include <gtest/gtest.h>
 #include "../src/classes/room.h"
 #include <stdexcept>
 
