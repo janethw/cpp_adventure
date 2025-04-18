@@ -4,7 +4,7 @@
 #include <stdexcept>
 #include <vector>
 #include "classes/room.h"
-#include "classes/thing.h"
+#include "classes/gameObject.h"
 #include "functions/enterRoom.h"
 #include "functions/initRooms.h"
 

@@ -1,16 +1,16 @@
-#ifndef __THING_H_
-#define __THING_H_
+#ifndef __GAMEOBJECT_H_
+#define __GAMEOBJECT_H_
 
 #include <string>
 
-// declare Thing class
-class Thing {
+// declare GameObject class
+class GameObject {
 private:
     std::string _gameObjectName;
     
 public:
     // Constructor
-    Thing(const std::string &name);
+    GameObject(const std::string &name);
     
     // Get name method
     const std::string &getGameObjectName() const;
@@ -22,4 +22,4 @@ public:
     virtual void interact() const = 0;
 };
 
-#endif //THING
+#endif //GAMEOBJECT
