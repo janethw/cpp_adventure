@@ -4,5 +4,4 @@
 
 std::vector<Room> initRooms();
 
-
 #endif // INITROOMS

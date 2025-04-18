@@ -2,7 +2,7 @@
 add_executable(MyApp src/main.cpp)
 
 # set variable SRC_CLASSES to hold class .cpp files
-set(SRC_CLASSES src/classes/room.cpp src/classes/thing.cpp)
+set(SRC_CLASSES src/classes/room.cpp src/classes/gameObject.cpp)
 
 # set variable SRC_FUNCTIONS to hold function .cpp files
 set(SRC_FUNCTIONS src/functions/enterRoom.cpp src/functions/initRooms.cpp)

@@ -2,11 +2,11 @@
 #define __ROOM_H_
 
 #include <string>
-#include "thing.h"
+#include "gameObject.h"
 
 
 // Declare Room class
-class Room : public Thing {
+class Room : public GameObject {
 private:
     std::string _roomName;  // Descriptive room name
     // ints to represent exits from the room (ints represent the IDs of connected rooms)
@@ -18,7 +18,7 @@ public:
     // ensuring that the room's name is correctly stored in the base class.
     explicit Room(const std::string &name, const std::string &roomName, 
         const int nArg, const int eArg, const int sArg, const int wArg) 
-        : Thing(name), _roomName(roomName), n(nArg), e(eArg), s(sArg), w(wArg) {};
+        : GameObject(name), _roomName(roomName), n(nArg), e(eArg), s(sArg), w(wArg) {};
 
     // Get roomName method
     const std::string &getRoomName() const;
